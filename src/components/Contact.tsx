@@ -6,7 +6,7 @@ export default function Contact() {
     >
       <div className="container mx-auto px-6">
 
-        <h2 className="text-4xl font-bold text-center text-white mt-8 mb-8">Contact Me</h2> 
+        <h2 className="text-4xl font-bold text-center text-white mt-8 mb-8">Contact Me</h2>
 
         {/* Smaller card-like wrapper for the form */}
         <div className="bg-white shadow-lg rounded-lg p-6 sm:p-8 max-w-md mx-auto">
@@ -33,7 +33,7 @@ export default function Contact() {
                 type="email"
                 name="email"
                 className="text-black peer p-3 w-full border rounded-lg focus:outline-none focus:border-blue-500"
-                placeholder="Email" 
+                placeholder="Email"
                 required
               />
             </div>

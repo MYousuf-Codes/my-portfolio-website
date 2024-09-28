@@ -49,7 +49,7 @@ export default function Navbar() {
           <span className="text-yellow-300"> Y</span>
           <span className="text-white">/&gt;</span>
         </Link>
-        
+
         {/* Hamburger Button for Mobile */}
         <div className="md:hidden">
           <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -63,9 +63,8 @@ export default function Navbar() {
             <Link
               key={link}
               href={`#${link}`}
-              className={`block hover:bg-gray-700 hover:shadow-lg transition py-2 px-4 rounded ${
-                activeLink === link ? 'bg-gray-700 shadow-lg underline decoration-white font-semibold' : ''
-              }`}
+              className={`block hover:bg-gray-700 hover:shadow-lg transition py-2 px-4 rounded ${activeLink === link ? 'bg-gray-700 shadow-lg underline decoration-white font-semibold' : ''
+                }`}
               onClick={() => handleLinkClick(link)}
             >
               {link.charAt(0).toUpperCase() + link.slice(1)}
@@ -82,9 +81,8 @@ export default function Navbar() {
               <Link
                 key={link}
                 href={`#${link}`}
-                className={`block hover:bg-gray-700 hover:shadow-lg transition py-2 px-4 rounded ${
-                  activeLink === link ? 'bg-gray-700 shadow-lg underline decoration-white font-semibold' : ''
-                }`}
+                className={`block hover:bg-gray-700 hover:shadow-lg transition py-2 px-4 rounded ${activeLink === link ? 'bg-gray-700 shadow-lg underline decoration-white font-semibold' : ''
+                  }`}
                 onClick={() => handleLinkClick(link)}
               >
                 {link.charAt(0).toUpperCase() + link.slice(1)}
