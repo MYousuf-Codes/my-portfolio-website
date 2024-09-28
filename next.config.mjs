@@ -4,16 +4,23 @@ const nextConfig = {
       remotePatterns: [
         {
           protocol: 'https',
-          hostname: 'example.com',
+          hostname: 'static-interactive-resmue.vercel.app',
         },
         {
           protocol: 'https',
-          hostname: 'another-example.com',
+          hostname: 'cdn-icons-png.flaticon.com',
         },
-        // Add more hostnames for other image sources as needed
+        {
+          protocol: 'https',
+          hostname: 'w7.pngwing.com',
+        },
+        {
+          protocol: 'https',
+          hostname: 'static-00.iconduck.com',
+        },
       ],
     },
   };
   
-  export default nextConfig;
+export default nextConfig;
   
