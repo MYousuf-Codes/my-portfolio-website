@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const projects = [
   {
@@ -34,7 +35,7 @@ export default function Projects() {
             {projects.map((project, index) => (
               <div key={index} className="bg-gray-200 rounded-lg shadow-md overflow-hidden transform transition-transform hover:scale-105">
                 <Link href={project.link} passHref>
-                  <img src={project.imageUrl} alt={project.title} className="w-full h-48 object-cover cursor-pointer" />
+                  <Image src={project.imageUrl} alt={project.title} className="w-full h-48 object-cover cursor-pointer" />
                   <div className="p-4">
                     <h3 className="text-xl font-semibold cursor-pointer text-black">{project.title}</h3>
                     <p className="text-m text-black font-semibold">{project.description}</p>
