@@ -13,7 +13,7 @@ export default function Contact() {
 
           <form
             className="space-y-4"
-            action="https://formspree.io/f/mpwagjbl" // Replace with your Formspree form endpoint
+            action="https://formspree.io/f/mpwagjbl" // my Formspree form endpoint
             method="POST"
           >
             {/* Name input */}
