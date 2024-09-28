@@ -12,6 +12,26 @@ const nextConfig = {
         },
         {
           protocol: 'https',
+          hostname: 'cdn-icons-png.flaticon.com',
+        },
+        {
+          protocol: 'https',
+          hostname: 'cdn-icons-png.flaticon.com',
+        },
+        {
+          protocol: 'https',
+          hostname: 'cdn-icons-png.flaticon.com',
+        },
+        {
+          protocol: 'https',
+          hostname: 'cdn-icons-png.flaticon.com',
+        },
+        {
+          protocol: 'https',
+          hostname: 'w7.pngwing.com',
+        },
+        {
+          protocol: 'https',
           hostname: 'w7.pngwing.com',
         },
         {
