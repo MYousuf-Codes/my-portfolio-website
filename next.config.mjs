@@ -22,6 +22,14 @@ const nextConfig = {
           protocol: 'https',
           hostname: 'static-00.iconduck.com',                // For Next.js icon
         },
+        {
+          protocol: 'https',
+          hostname: 'my-share-sphere.vercel.app',                // For project 1
+        },
+        {
+          protocol: 'https',
+          hostname: 'via.placeholder.com',                // For Next.js icon
+        },
       ],
     },
   };
