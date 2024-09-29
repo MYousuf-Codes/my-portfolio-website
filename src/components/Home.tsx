@@ -6,7 +6,7 @@ import Link from 'next/link';
 const texts = [
   "A passionate Front-End Developer",
   "A passionate UX/UI Designer",
-  "&amp; Website Template Designer" // Escape the ampersand character
+  " and Website Template Designer" // Escape the ampersand character
 ];
 
 export default function Home() {
