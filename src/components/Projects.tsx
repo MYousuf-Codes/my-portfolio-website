@@ -4,9 +4,9 @@ import Image from 'next/image';
 const projects = [
   {
     title: "Project 1",
-    imageUrl: "https://via.placeholder.com/300",
-    link: "https://example.com/project1",
-    description: "Hover The Card, project is simply built using HTML and CSS"
+    imageUrl: "https://my-share-sphere.vercel.app/",
+    link: "https://my-share-sphere.vercel.app/",
+    description: "Share Sphere | Landing Page for a Mobile App | Figma Design to responsive Website"
   },
   {
     title: "Project 2",
