@@ -24,7 +24,7 @@ const nextConfig = {
         },
         {
           protocol: 'https',
-          hostname: 'my-share-sphere.vercel.app',                // For project 1
+          hostname: 'next-share-sphere.vercel.app',                // For project 1
         },
         {
           protocol: 'https',

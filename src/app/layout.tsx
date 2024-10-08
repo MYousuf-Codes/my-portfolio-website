@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import './globals.css';  // Global styles
 
 export const metadata = {
-  title: "Portfolio",
+  title: "Muhammad Yousuf",
   description: 'A Front-End Developer Portfolio showcasing skills and projects',
 };
 

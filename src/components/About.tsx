@@ -11,7 +11,7 @@ export default function About() {
           About Me
         </h2>
         {/* The card div */}
-        <div className="bg-white shadow-lg rounded-lg p-8 sm:p-12 max-w-6xl mx-auto relative">
+        <div className="container mx-auto bg-white shadow-lg rounded-lg sm:p-12 max-w-9xl relative">
           {/* Image with shadow */}
           <div className="flex justify-center mb-6">
             <Image
