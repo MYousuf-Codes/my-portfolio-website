@@ -35,7 +35,7 @@ export default function Home() {
           {displayText}
         </p>
         <div className="m-15"> {/* Add margin for spacing */}
-          <button className="text-center text-white border border-white rounded-lg bg-cyan-700 px-4 py-2 transition duration-300 hover:bg-cyan-600" type='submit'>
+          <button className="text-center text-white border  shadow-lg hover:shadow-emerald-300 hover:font-semibold border-white rounded-lg bg-cyan-700 px-4 py-2 transition duration-300 hover:bg-cyan-600" type='submit'>
             <Link href="https://static-interactive-resmue.vercel.app" target='blank'>My Resume</Link>
           </button>
         </div>

@@ -11,13 +11,13 @@ type Project = {
 const projects: Project[] = [
   {
     title: "Share Sphere",
-    imageUrl: "/1.png",
-    link: "https://my-share-sphere.vercel.app/",
+    imageUrl: "/SocialApp.png",
+    link: "https://next-share-sphere.vercel.app/",
     description: "Landing Page for a Mobile App | Figma Design to responsive Website",
   },
   {
     title: "Dynamic Resume Builder",
-    imageUrl: "/2.png",
+    imageUrl: "/Resume.png",
     link: "https://static-interactive-resmue.vercel.app/",
     description: "Build Your Editable and Customizable Resume with just one click",
   },

@@ -14,7 +14,7 @@ export default function Navbar() {
   };
 
   const handleScroll = () => {
-    const sections = ['home', 'about', 'skills', 'projects', 'contact'];
+    const sections = ['home', 'about', 'skills', 'services', 'projects', 'contact'];
     let currentSection = '';
 
     sections.forEach((section) => {
@@ -59,7 +59,7 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          {['home', 'about', 'skills', 'projects', 'contact'].map((link: string) => (
+          {['home', 'about', 'skills', 'services', 'projects', 'contact'].map((link: string) => (
             <Link
               key={link}
               href={`#${link}`}
@@ -77,7 +77,7 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className="absolute top-16 right-0 w-full bg-gray-900 text-white shadow-lg md:hidden">
           <div className="flex flex-col items-center space-y-4 py-4">
-            {['home', 'about', 'skills', 'projects', 'contact'].map((link: string) => (
+            {['home', 'about', 'skills', 'services', 'projects', 'contact'].map((link: string) => (
               <Link
                 key={link}
                 href={`#${link}`}

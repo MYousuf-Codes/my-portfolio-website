@@ -6,12 +6,12 @@ export default function About() {
       id="about"
       className="min-h-screen p-10 flex items-center justify-center bg-gradient-to-r from-black via-gray-900 to-black"
     >
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto sm:p-5 ">
         <h2 className="text-4xl font-bold text-center text-white mt-8 mb-8">
           About Me
         </h2>
         {/* The card div */}
-        <div className="container mx-auto bg-white shadow-lg rounded-lg sm:p-12 max-w-9xl relative">
+        <div className="container mx-auto bg-white shadow-2xl shadow-slate-600 rounded-lg sm:p-12 max-w-9xl relative">
           {/* Image with shadow */}
           <div className="flex justify-center mb-6">
             <Image
@@ -23,7 +23,7 @@ export default function About() {
             />
           </div>
 
-          <p className="text-lg mb-4">
+          <p className="text-lg mb-4 sm:p-3">
             Hi there! <br />
             I&apos;m a passionate{" "}
             <span className="text-blue-600 font-semibold">
